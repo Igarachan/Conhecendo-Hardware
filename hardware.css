@@ -18,7 +18,7 @@
     float:left;
     cursor: pointer;
     transition: all 0.2s;
-    outline: none;
+    outline: blueviolet;
 }
 .floatLeft:active {
     transform: scale(0.95);
