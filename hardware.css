@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+
+
+.floatLeft{
+    width: 14.28%;
+    height: 30px;
+    background: rgb(101, 26, 172);
+    border-width: thin;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    float:left;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.floatLeft:active {
+    transform: scale(0.95);
+  }
+.floatLeft:hover{
+    background: blueviolet ;
+}
+.bg1{
+    background: blueviolet;
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://tm.ibxk.com.br/2021/12/22/22114306286189.jpg?ims=1120x420);
+    position: relative;
+    background-size: cover;
+}
+.bg1 h1{
+    display: block;
+    font-family:'Times New Roman', Times, serif ; 
+    margin-top: 20px;
+    margin-bottom: 21px;   
+    font-size: 30px;
+    color:aliceblue; 
+    animation: opacidade 3s;
+}
+.bg2{
+    background: rgba(25,25,25) ;
+    position: relative;
+    background-size: cover;
+}
+.font1{
+    font-size: 25px;
+    color: aliceblue;
+    white-space: pre-line;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    text-align:left ;
+    margin-left: 10px;
+    
+}
+.bg3{
+    background: black;
+    margin-top: 50px;
+    font-size: 20px;
+    white-space: pre-line;
+    text-align: left;
+    color: aliceblue;
+   
+}
+.linha{
+border-bottom: 2px solid black;
+margin-top: 400px;
+}
+.img{
+    width:20px;
+    height:20px;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+}
+@keyframes opacidade{
+0%{ 
+opacity:0 ;
+
+}
+100%{
+
+opacity: 30;
+}
+}
+
+.img2{
+    height: 35px;
+    width: 35px;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+
+.container{
+     display:flex ;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    white-space: pre-line;
+
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    white-space: pre-line;
+
+}
+.img3{
+    height: 550px;
+    width: 550px;
+    display: flex;
+    border: 2px  white solid;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-left: 25px;
+}

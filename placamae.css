@@ -1,0 +1,164 @@
+*{margin: 0%;}
+
+.fundo1 {
+    font-size: 55px;
+    font-weight: 600;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: white;
+    background-image: url(https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2021/05/processador-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+  
+    width: 100%;
+}
+.bg{
+    background-image: url(https://img.freepik.com/vetores-premium/placa-de-circuito-placa-mae-fundo-de-tecnologia-azul_322958-40.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.bg3{
+    background: black;
+  
+    font-size: 20px;
+    white-space: pre-line;
+    text-align: left;
+    color: aliceblue;
+    margin-bottom: none;
+}
+.img{
+    width:20px;
+    height:20px;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+}
+.img2{
+    height: 35px;
+    width: 35px;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+
+.container{
+     display:flex ;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    white-space: pre-line;
+
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    white-space: pre-line;
+
+}
+.img1 img{
+    margin-top: 10px;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    border: 4px solid #ffffff; 
+    object-fit: cover; 
+    border-color: white
+}
+.img3 img{
+    border-radius: 50%;
+    border:solid #ffff;
+    object-fit:cover;
+    margin-top: 10px;
+    width: 300px; 
+    height: 300px; 
+    order:2;
+    align-items: right;
+
+}
+
+.container1{
+    display:flex ;
+    margin-bottom: 10px;
+}
+.textoc{
+    text-align: justify;
+    margin: 20px;
+    padding-top: 10px;
+    padding-right: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    flex-grow: 1;
+    font-size: 23px;
+    color: white;
+    order: 1;
+    
+}
+.tituloc{
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-right: 140px ;
+    font-weight: bold;
+}
+.tituloc2{
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-right: 140px ;
+    font-weight: bold;
+}
+.marginmr{
+    margin-top: 20px;
+}
+.container2{
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.textop{
+    text-align: justify;
+    margin: 20px;
+    padding-top: 10px;
+    padding-right: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    flex-grow: 1;
+    font-size: 23px;
+    color: white;
+    order: 1;
+
+}
+.linha{
+    border-bottom: 5px solid white;
+    margin-bottom: 20px;
+}
+@keyframes opacidade{
+0%{ 
+opacity:0 ;
+
+}
+100%{
+
+opacity: 30;
+}
+}
+

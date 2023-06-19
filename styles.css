@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+}
+
+.fundo1 {
+    outline: none;
+    font-size: 55px;
+    font-weight: 600;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-image: url(https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2021/05/processador-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-bottom: solid 2px;
+    border-color: #ffff;
+}
+.texto1{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    display:flex;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+
+}
+.textoc{
+    text-align: justify;
+    margin: 20px;
+    padding-top: 10px;
+    padding-right: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    flex-grow: 1;
+    font-size: 23px;
+    color: white;
+    order: 1;
+}
+.container1{
+    margin-top: 40px;
+    display:flex ;
+}
+.fundoc{
+    background-image: url(https://media.istockphoto.com/id/1145600692/pt/foto/cpu.jpg?s=612x612&w=0&k=20&c=H5fE-G1e2IDfVXq9lVkxmjGp5tFry8TCb13IScLwGy8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.img1 img{
+    margin-top: 10px;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    border: 4px solid #ffffff; 
+    object-fit: cover; 
+    border-color: white
+}   
+.linha{
+    border-bottom: 5px solid white;
+    margin-bottom: 50px;
+}
+.bg3{
+    background: black;
+    margin-top: 200px;
+    font-size: 20px;
+    white-space: pre-line;
+    text-align: left;
+    color: aliceblue;
+    margin-bottom: none;
+}
+.img{
+    width:20px;
+    height:20px;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+}
+.img2{
+    height: 35px;
+    width: 35px;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+
+.container{
+     display:flex ;
+     margin-bottom: 10px;
+
+
+}
+.container2{
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center; 
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    white-space: pre-line;
+
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    white-space: pre-line;
+
+}
+.titulop{
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-right: 140px ;
+    font-weight: bold;
+    
+}
+.divcomp{
+    flex-direction: row-reverse;
+}
+.tituloc{
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-right: 140px ;
+    font-weight: bold;
+
+}
+.bordatc{
+    margin-top: 15px;
+    border-bottom: #ffff;
+    border-bottom: solid 5px;
+}
+.img3 img{
+    margin-top: 10px;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    border: 4px solid #ffffff; 
+    object-fit: cover; 
+    border-color: white;
+    align-items: right;
+    order: 2;
+}   
