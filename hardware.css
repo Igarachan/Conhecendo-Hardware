@@ -18,9 +18,13 @@
     float:left;
     cursor: pointer;
     transition: all 0.2s;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: #ffffff;
 }
 .floatLeft:active {
     transform: scale(0.95);
+     background-color: blueviolet ;
   }
 .floatLeft:hover{
     background: blueviolet ;
